@@ -18,7 +18,7 @@
     "react-native": "0.74.5",
     "react-native-fs": "^2.20.0",
     "react-native-video": "^6.6.4",
-    "react-native-video-trimmer-ui": "^0.2.2",
+    "react-native-video-trimmer-ui": "latest",
     "react-native-web": "~0.19.10"
   },
   "devDependencies": {

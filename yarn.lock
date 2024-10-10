@@ -12648,7 +12648,7 @@ __metadata:
     react-native-builder-bob: ^0.30.2
     react-native-fs: ^2.20.0
     react-native-video: ^6.6.4
-    react-native-video-trimmer-ui: ^0.2.2
+    react-native-video-trimmer-ui: latest
     react-native-web: ~0.19.10
   languageName: unknown
   linkType: soft
@@ -12685,16 +12685,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-video-trimmer-ui@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "react-native-video-trimmer-ui@npm:0.2.2"
+"react-native-video-trimmer-ui@npm:latest":
+  version: 0.3.0
+  resolution: "react-native-video-trimmer-ui@npm:0.3.0"
   dependencies:
     "@miblanchard/react-native-slider": ^2.6.0
   peerDependencies:
     react: "*"
     react-native: "*"
     react-native-video: ^6.6.4
-  checksum: cbdfe84ac209733437e48e5cbf6b7bdd8021de6e3fc51abe193e6b6aa34cf936870bc072ac3ee9fc4b56c4c3f532e1b38a6e0692f7a6eba67f5fbd506b0e6348
+  checksum: 0ec0b6d0424ac02a0999d9aa6d2f2414c9e4d786c94e51b012aaea83e3f74bf21d0ce621049c63cbb1ea55acbffc75bdfac88d016df76a319ce9677ee5aff4a6
   languageName: node
   linkType: hard
 

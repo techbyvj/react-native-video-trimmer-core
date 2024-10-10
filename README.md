@@ -4,6 +4,10 @@ Trim videos between specified start and end times using ffmpeg-kit-react-native
 
 This library provides a simple and efficient way to trim video files in React Native applications. It utilizes the powerful FFmpeg library through the [ffmpeg-kit-react-native](https://www.npmjs.com/package/ffmpeg-kit-react-native) package to perform video trimming operations. With this core functionality, you can easily integrate video trimming capabilities into your React Native projects, allowing users to select specific portions of a video for further use or processing.
 
+## Demo
+
+![Video Trimmer UI Demo](./demo.gif)
+
 Key features:
 - Precise trimming: Set exact start and end times for video clips
 - Fast processing: Leverages FFmpeg's efficient video manipulation capabilities
@@ -225,4 +229,4 @@ This example demonstrates:
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -24,7 +24,7 @@ export default function App() {
       }
       RNFS.downloadFile({
         fromUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+          'https://github.com/techbyvj/public-assets/raw/refs/heads/main/sample.mp4',
         toFile: filePath,
       })
         .promise.then(() => {
@@ -62,7 +62,11 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {trimmedUri ? <Text>Trimmed url: {trimmedUri}</Text> : null}
+      {trimmedUri ? (
+        <Text style={{ color: 'white', backgroundColor: 'black' }}>
+          Trimmed url: {trimmedUri.split('/').pop()}
+        </Text>
+      ) : null}
       {uri ? (
         <>
           <VideoTrimmer
