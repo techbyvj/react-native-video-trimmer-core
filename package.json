@@ -23,6 +23,7 @@
     "android",
     "ios",
     "cpp",
+    "demo.gif",
     "*.podspec",
     "!ios/build",
     "!android/build",
