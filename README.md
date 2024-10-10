@@ -6,7 +6,7 @@ This library provides a simple and efficient way to trim video files in React Na
 
 ## Demo
 
-![Video Trimmer UI Demo](./demo.gif)
+![Video Trimmer UI Demo](https://github.com/techbyvj/public-assets/blob/main/react-native-video-trimmer-core-demo.gif)
 
 Key features:
 - Precise trimming: Set exact start and end times for video clips
