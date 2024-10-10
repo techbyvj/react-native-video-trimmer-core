@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-trimmer-core",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Trim videos between start and end using ffmpeg-kit-react-native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
