@@ -40,8 +40,7 @@ class Utils {
         const hours = Math.floor(time / 3600);
         const minutes = Math.floor((time % 3600) / 60);
         const seconds = Math.floor(time % 60);
-        const milliseconds = Math.floor((time % 1) * 1000);
-        return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}.${pad(milliseconds, 3)}`;
+        return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
       };
 
       const formattedStart = formatTime(start);
